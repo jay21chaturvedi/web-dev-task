@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <style>
+        .frame {
+            max-width: 100%;
+            margin: auto;
+            border: 3px solid black;
+            padding: 20px;
+        }
+        .companyname {
+           text-align: center;
+        }
+        .companyname h2{
+            color: aliceblue;
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            padding: 10px;
+            background-color: rgb(250, 47, 250);
+            border: 2px solid rgb(250, 47, 250);
+            border-radius: 3%;
+        }
+        .companyname p {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        .line{
+            color: rgb(250, 47, 250);
+        }
+        .team h2{
+            color: black;
+            width: 90%;
+            margin: auto;
+            padding: 10px;
+        }
+        .team h4{
+            color: aliceblue;
+            width: 90%;
+            margin: auto;
+            margin-top: 35px;
+            padding: 10px;
+            background-color: rgb(250, 47, 250);
+            border: 2px solid rgb(250, 47, 250);
+            border-radius: 3%;
+            text-align: center;
+        }
+
+        .team {
+            margin: 0%;
+        }
+
+        .card {
+            width: 30%;
+            max-width: 250px; /* Adjust as needed */
+            display: inline-block;
+            border-radius: 5px;
+            margin: 2%;
+            margin-top: 50px;
+        }
+        .image img{
+            max-width: 100%; /* Ensures images are responsive */
+            height: auto;
+            border-radius: 100%;
+            margin-left: 25%;
+        }
+        .title{
+            text-align: center;
+        }
+
+        .title h1{
+            font-size: 20px;
+        }
+
+        .des{  
+            color: rgb(250, 47, 250);
+            text-align: center; 
+        }
+        .row1, .row2 {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+        }
+
+        @media screen and (max-width: 768px) {
+            .card {
+                width: 45%; /* Adjust for smaller screens */
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .card {
+                width: 90%; /* Adjust for mobile screens */
+                margin: 5% auto;
+            }
+        }
+      </style>
+</head>
+<body>
+<div class="frame">
+   <div class="companyname">
+        <h2>Company Name</h2>
+        <p>Welcome to [your company name], where a dedicated team of professionals works together to bring innovation, creativity, and expertise to the software industry. Get to know the individuals who make our company thrive.</p>
+        <p class="line">-----------------------------------------------------</p>
+   </div> 
+   <div class="team">   
+        <h2>Meet Our Team</h2>
+
+        <h4>Leadership / Management Team</h4>
+
+        <div class="row1">
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <!-- Repeat card structure for other team members -->
+        </div>
+
+        <div class="row2">
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <!-- Repeat card structure for other team members -->
+        </div>
+
+        <!-- Repeat similar structures for other teams -->
+
+        <h4>Leadership / Management Team</h4>
+
+        <div class="row1">
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <!-- Repeat card structure for other team members -->
+        </div>
+
+        <div class="row2">
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <!-- Repeat card structure for other team members -->
+        </div>
+     
+
+        <h4>Leadership / Management Team</h4>
+
+        <div class="row1">
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <!-- Repeat card structure for other team members -->
+        </div>
+
+        <div class="row2">
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                   <img src="helpdesk.png.png">
+                </div>
+                <div class="title">
+                    <h1>[Founder Name]</h1>
+                </div>
+                <div class="des">
+                    <p>Founder/ CEO</p>
+                </div>
+            </div>
+            <!-- Repeat card structure for other team members -->
+        </div>
+
+
+
+
+   </div>  
+</div>
+</body>
+</html>
